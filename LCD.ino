@@ -200,5 +200,6 @@ void updateProgressBar(unsigned long count, unsigned long totalCount, int lineTo
     }
    
        lcd.setCursor(number,lineToPrintOn);
-       lcd.write(remainder);   
+       lcd.write(remainder);
+ }
  
